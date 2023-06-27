@@ -155,17 +155,40 @@ div.info img {
 
 .banner-container {
     background-color: #3882f6;
-    margin: 100px 200px;
-    padding: 10px;
+    margin: 100px 250px;
+    padding: 20px;
     display: flex;
+    border-radius: 5px;
 }
 
 .banner-text {
-    display: flex;
-    flex-direction: column;
     flex: 1;
+    margin-left: 5%;
 }
 
 .banner-button {
     flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    background-color: #3882f6;
+    color: white;
+    height: 30px;
+    width: 100px;
+    border: 2px solid #f9faf8;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #67a0fc;
+}
+
+.footer {
+    background-color: #1f2937;
+    text-align: center;
+    padding: 20px;
 }
